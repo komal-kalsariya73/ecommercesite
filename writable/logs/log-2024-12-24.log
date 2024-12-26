@@ -1,0 +1,1244 @@
+INFO - 2024-12-24 04:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 04:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 04:21:25 --> Order data: Array
+(
+    [fname] => 
+    [lname] => 
+    [address] => 
+    [phone] => 
+    [email] => 
+    [city] => 
+    [notes] => 
+    [total_amount] => 
+    [user_id] => 
+)
+
+INFO - 2024-12-24 04:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 04:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 04:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 04:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 04:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 04:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 05:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 06:06:30 --> ErrorException: Undefined variable $page
+[Method: GET, Route: product/products]
+in APPPATH\Views\product\products.php on line 95.
+ 1 APPPATH\Views\product\products.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\app\\Views\\product\\products.php', 95)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\app\\Views\\product\\products.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('product/products', [], true)
+ 5 APPPATH\Controllers\MainController.php(69): view('product/products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MainController->display()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-24 06:09:34 --> ErrorException: Undefined variable $page
+[Method: GET, Route: product/products]
+in APPPATH\Views\product\products.php on line 95.
+ 1 APPPATH\Views\product\products.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\app\\Views\\product\\products.php', 95)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\app\\Views\\product\\products.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('product/products', [], true)
+ 5 APPPATH\Controllers\MainController.php(69): view('product/products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MainController->display()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-24 06:24:37 --> ErrorException: Undefined variable $search
+[Method: GET, Route: product/products]
+in APPPATH\Views\product\products.php on line 22.
+ 1 APPPATH\Views\product\products.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $search', 'C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\app\\Views\\product\\products.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\app\\Views\\product\\products.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('product/products', [], true)
+ 5 APPPATH\Controllers\ProductsController.php(44): view('product/products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->display()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 06:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 06:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 06:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 06:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 06:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 06:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 06:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 06:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 06:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 06:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 06:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 06:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 07:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 07:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 07:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 07:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 07:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 07:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 07:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 07:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 07:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 07:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 07:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 07:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 07:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 07:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 07:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 07:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 07:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 07:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 07:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 07:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 07:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 07:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 07:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 07:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 07:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 07:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 07:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 08:23:16 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: getCartCount]
+in APPPATH\Controllers\CartController.php on line 207.
+ 1 APPPATH\Controllers\CartController.php(207): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->getCartCount()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 08:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 08:24:59 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: cart/getCartCount]
+in APPPATH\Controllers\CartController.php on line 207.
+ 1 APPPATH\Controllers\CartController.php(207): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->getCartCount()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 08:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 08:25:34 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: cart/getCartCount]
+in APPPATH\Controllers\CartController.php on line 207.
+ 1 APPPATH\Controllers\CartController.php(207): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->getCartCount()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 08:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 08:26:03 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: cart/getCartCount]
+in APPPATH\Controllers\CartController.php on line 207.
+ 1 APPPATH\Controllers\CartController.php(207): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->getCartCount()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 08:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 08:32:44 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: cart/getCartCount]
+in APPPATH\Controllers\CartController.php on line 207.
+ 1 APPPATH\Controllers\CartController.php(207): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->getCartCount()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 08:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:31:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:33:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 11:14:30 --> TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, string given
+[Method: POST, Route: paypal/create-payment]
+in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php on line 176.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(176): sizeof('sale')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(278): PayPal\Common\PayPalModel->_convertToArray([...])
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(293): PayPal\Common\PayPalModel->toArray()
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(571): PayPal\Common\PayPalModel->toJSON()
+ 5 APPPATH\Controllers\PayPalController.php(36): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-24 11:14:31 --> TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, string given
+[Method: POST, Route: paypal/create-payment]
+in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php on line 176.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(176): sizeof('sale')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(278): PayPal\Common\PayPalModel->_convertToArray([...])
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(293): PayPal\Common\PayPalModel->toArray()
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(571): PayPal\Common\PayPalModel->toJSON()
+ 5 APPPATH\Controllers\PayPalController.php(36): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-24 11:14:31 --> TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, string given
+[Method: POST, Route: paypal/create-payment]
+in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php on line 176.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(176): sizeof('sale')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(278): PayPal\Common\PayPalModel->_convertToArray([...])
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(293): PayPal\Common\PayPalModel->toArray()
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(571): PayPal\Common\PayPalModel->toJSON()
+ 5 APPPATH\Controllers\PayPalController.php(36): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-24 11:15:01 --> TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, string given
+[Method: POST, Route: paypal/create-payment]
+in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php on line 176.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(176): sizeof('sale')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(278): PayPal\Common\PayPalModel->_convertToArray([...])
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(293): PayPal\Common\PayPalModel->toArray()
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(571): PayPal\Common\PayPalModel->toJSON()
+ 5 APPPATH\Controllers\PayPalController.php(36): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 11:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 11:48:39 --> TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, string given
+[Method: POST, Route: paypal/create-payment]
+in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php on line 176.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(176): sizeof('sale')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(278): PayPal\Common\PayPalModel->_convertToArray([...])
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(293): PayPal\Common\PayPalModel->toArray()
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(571): PayPal\Common\PayPalModel->toJSON()
+ 5 APPPATH\Controllers\PayPalController.php(36): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-24 11:59:29 --> TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, string given
+[Method: POST, Route: paypal/create-payment]
+in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php on line 176.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(176): sizeof('sale')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(278): PayPal\Common\PayPalModel->_convertToArray([...])
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(293): PayPal\Common\PayPalModel->toArray()
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(571): PayPal\Common\PayPalModel->toJSON()
+ 5 APPPATH\Controllers\PayPalController.php(36): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-24 11:59:40 --> TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, string given
+[Method: POST, Route: paypal/create-payment]
+in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php on line 176.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(176): sizeof('sale')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(278): PayPal\Common\PayPalModel->_convertToArray([...])
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(293): PayPal\Common\PayPalModel->toArray()
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(571): PayPal\Common\PayPalModel->toJSON()
+ 5 APPPATH\Controllers\PayPalController.php(36): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 12:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 12:14:23 --> TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, string given
+[Method: POST, Route: paypal/create-payment]
+in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php on line 176.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(176): sizeof('sale')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(278): PayPal\Common\PayPalModel->_convertToArray([...])
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(293): PayPal\Common\PayPalModel->toArray()
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(571): PayPal\Common\PayPalModel->toJSON()
+ 5 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 12:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 12:16:05 --> TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, string given
+[Method: POST, Route: paypal/create-payment]
+in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php on line 176.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(176): sizeof('sale')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(278): PayPal\Common\PayPalModel->_convertToArray([...])
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(293): PayPal\Common\PayPalModel->toArray()
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(571): PayPal\Common\PayPalModel->toJSON()
+ 5 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-24 12:16:17 --> TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, string given
+[Method: POST, Route: paypal/create-payment]
+in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php on line 176.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(176): sizeof('sale')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(278): PayPal\Common\PayPalModel->_convertToArray([...])
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(293): PayPal\Common\PayPalModel->toArray()
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(571): PayPal\Common\PayPalModel->toJSON()
+ 5 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-24 12:18:36 --> TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, string given
+[Method: POST, Route: paypal/create-payment]
+in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php on line 176.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(176): sizeof('sale')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(278): PayPal\Common\PayPalModel->_convertToArray([...])
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(293): PayPal\Common\PayPalModel->toArray()
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(571): PayPal\Common\PayPalModel->toJSON()
+ 5 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-24 12:18:42 --> TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, string given
+[Method: POST, Route: paypal/create-payment]
+in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php on line 176.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(176): sizeof('sale')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(278): PayPal\Common\PayPalModel->_convertToArray([...])
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(293): PayPal\Common\PayPalModel->toArray()
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(571): PayPal\Common\PayPalModel->toJSON()
+ 5 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-24 12:20:02 --> TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, string given
+[Method: POST, Route: paypal/create-payment]
+in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php on line 176.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(176): sizeof('sale')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(278): PayPal\Common\PayPalModel->_convertToArray([...])
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(293): PayPal\Common\PayPalModel->toArray()
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(571): PayPal\Common\PayPalModel->toJSON()
+ 5 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 12:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-24 12:23:17 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(572): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:23:17 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(572): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:23:17 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(572): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:23:20 --> [DEPRECATED] Use of "self" in callables is deprecated in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php on line 152.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(152): preg_replace_callback('/([_\\-\\s]?([a-z0-9]+))/', 'self::replace_callback', 'related_resources')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(47): PayPal\Common\ReflectionUtil::getter('PayPal\\Api\\Transaction', 'related_resources')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(211): PayPal\Common\ReflectionUtil::getPropertyClass('PayPal\\Api\\Transaction', 'related_resources')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(234): PayPal\Common\PayPalModel->fromArray([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(272): PayPal\Common\PayPalModel->fromArray([])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(580): PayPal\Common\PayPalModel->fromJson('{"id":"PAYID-M5VKPOA5GU00209KP842663C","intent":"sale","state":"created","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product","related_resources":[]}],"create_time":"2024-12-24T12:23:20Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKPOA5GU00209KP842663C","rel":"self","method":"GET"},{"href":"https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-54966078GU356484K","rel":"approval_url","method":"REDIRECT"},{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKPOA5GU00209KP842663C/execute","rel":"execute","method":"POST"}]}')
+ 7 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:23:20 --> [DEPRECATED] Use of "self" in callables is deprecated in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php on line 152.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(152): preg_replace_callback('/([_\\-\\s]?([a-z0-9]+))/', 'self::replace_callback', 'related_resources')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(109): PayPal\Common\ReflectionUtil::getter('PayPal\\Api\\Transaction', 'related_resources')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(51): PayPal\Common\ReflectionUtil::propertyAnnotations('PayPal\\Api\\Transaction', 'related_resources')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(211): PayPal\Common\ReflectionUtil::getPropertyClass('PayPal\\Api\\Transaction', 'related_resources')
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(234): PayPal\Common\PayPalModel->fromArray([...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(272): PayPal\Common\PayPalModel->fromArray([])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(580): PayPal\Common\PayPalModel->fromJson('{"id":"PAYID-M5VKPOA5GU00209KP842663C","intent":"sale","state":"created","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product","related_resources":[]}],"create_time":"2024-12-24T12:23:20Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKPOA5GU00209KP842663C","rel":"self","method":"GET"},{"href":"https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-54966078GU356484K","rel":"approval_url","method":"REDIRECT"},{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKPOA5GU00209KP842663C/execute","rel":"execute","method":"POST"}]}')
+ 8 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:23:20 --> [DEPRECATED] Use of "self" in callables is deprecated in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php on line 152.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(152): preg_replace_callback('/([_\\-\\s]?([a-z0-9]+))/', 'self::replace_callback', 'related_resources')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(74): PayPal\Common\ReflectionUtil::getter('PayPal\\Api\\Transaction', 'related_resources')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(214): PayPal\Common\ReflectionUtil::isPropertyClassArray('PayPal\\Api\\Transaction', 'related_resources')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(234): PayPal\Common\PayPalModel->fromArray([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(272): PayPal\Common\PayPalModel->fromArray([])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(580): PayPal\Common\PayPalModel->fromJson('{"id":"PAYID-M5VKPOA5GU00209KP842663C","intent":"sale","state":"created","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product","related_resources":[]}],"create_time":"2024-12-24T12:23:20Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKPOA5GU00209KP842663C","rel":"self","method":"GET"},{"href":"https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-54966078GU356484K","rel":"approval_url","method":"REDIRECT"},{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKPOA5GU00209KP842663C/execute","rel":"execute","method":"POST"}]}')
+ 7 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-24 12:23:20 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tr...', 0)
+#1 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\app\Controllers\PayPalController.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+#9 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+#10 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-12-24 12:23:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: paypal/create-payment]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `created_at`, `updated_at`) VALUES (:order_id:, :transaction_id:, :payment_status:, :payment_method:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\PayPalController.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-24 12:23:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `created_at`, `updated_at`) VALUES (123, \'PAYID-M5VKPOA5GU00209KP842663C\', \'pending\', \'paypal\', \'2024-12-24 12:23:20\', \'2024-12-24 12:23:20\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `created_at`, `updated_at`) VALUES (123, \'PAYID-M5VKPOA5GU00209KP842663C\', \'pending\', \'paypal\', \'2024-12-24 12:23:20\', \'2024-12-24 12:23:20\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `created_at`, `updated_at`) VALUES (:order_id:, :transaction_id:, :payment_status:, :payment_method:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\PayPalController.php(48): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-24 12:23:20 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `created_at`, `updated_at`) VALUES (123, \'PAYID-M5VKPOA5GU00209KP842663C\', \'pending\', \'paypal\', \'2024-12-24 12:23:20\', \'2024-12-24 12:23:20\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `created_at`, `updated_at`) VALUES (123, \'PAYID-M5VKPOA5GU00209KP842663C\', \'pending\', \'paypal\', \'2024-12-24 12:23:20\', \'2024-12-24 12:23:20\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `created_at`, `updated_at`) VALUES (123, \'PAYID-M5VKPOA5GU00209KP842663C\', \'pending\', \'paypal\', \'2024-12-24 12:23:20\', \'2024-12-24 12:23:20\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `created_at`, `updated_at`) VALUES (:order_id:, :transaction_id:, :payment_status:, :payment_method:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\PayPalController.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 12:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-24 12:23:58 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(572): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:23:58 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(572): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:23:58 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(572): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:24:01 --> [DEPRECATED] Use of "self" in callables is deprecated in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php on line 152.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(152): preg_replace_callback('/([_\\-\\s]?([a-z0-9]+))/', 'self::replace_callback', 'related_resources')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(47): PayPal\Common\ReflectionUtil::getter('PayPal\\Api\\Transaction', 'related_resources')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(211): PayPal\Common\ReflectionUtil::getPropertyClass('PayPal\\Api\\Transaction', 'related_resources')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(234): PayPal\Common\PayPalModel->fromArray([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(272): PayPal\Common\PayPalModel->fromArray([])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(580): PayPal\Common\PayPalModel->fromJson('{"id":"PAYID-M5VKPYI3DC24818NE592894N","intent":"sale","state":"created","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product","related_resources":[]}],"create_time":"2024-12-24T12:24:01Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKPYI3DC24818NE592894N","rel":"self","method":"GET"},{"href":"https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-9NY93376TM6797248","rel":"approval_url","method":"REDIRECT"},{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKPYI3DC24818NE592894N/execute","rel":"execute","method":"POST"}]}')
+ 7 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:24:01 --> [DEPRECATED] Use of "self" in callables is deprecated in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php on line 152.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(152): preg_replace_callback('/([_\\-\\s]?([a-z0-9]+))/', 'self::replace_callback', 'related_resources')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(109): PayPal\Common\ReflectionUtil::getter('PayPal\\Api\\Transaction', 'related_resources')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(51): PayPal\Common\ReflectionUtil::propertyAnnotations('PayPal\\Api\\Transaction', 'related_resources')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(211): PayPal\Common\ReflectionUtil::getPropertyClass('PayPal\\Api\\Transaction', 'related_resources')
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(234): PayPal\Common\PayPalModel->fromArray([...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(272): PayPal\Common\PayPalModel->fromArray([])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(580): PayPal\Common\PayPalModel->fromJson('{"id":"PAYID-M5VKPYI3DC24818NE592894N","intent":"sale","state":"created","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product","related_resources":[]}],"create_time":"2024-12-24T12:24:01Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKPYI3DC24818NE592894N","rel":"self","method":"GET"},{"href":"https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-9NY93376TM6797248","rel":"approval_url","method":"REDIRECT"},{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKPYI3DC24818NE592894N/execute","rel":"execute","method":"POST"}]}')
+ 8 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:24:01 --> [DEPRECATED] Use of "self" in callables is deprecated in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php on line 152.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(152): preg_replace_callback('/([_\\-\\s]?([a-z0-9]+))/', 'self::replace_callback', 'related_resources')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(74): PayPal\Common\ReflectionUtil::getter('PayPal\\Api\\Transaction', 'related_resources')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(214): PayPal\Common\ReflectionUtil::isPropertyClassArray('PayPal\\Api\\Transaction', 'related_resources')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(234): PayPal\Common\PayPalModel->fromArray([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(272): PayPal\Common\PayPalModel->fromArray([])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(580): PayPal\Common\PayPalModel->fromJson('{"id":"PAYID-M5VKPYI3DC24818NE592894N","intent":"sale","state":"created","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product","related_resources":[]}],"create_time":"2024-12-24T12:24:01Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKPYI3DC24818NE592894N","rel":"self","method":"GET"},{"href":"https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-9NY93376TM6797248","rel":"approval_url","method":"REDIRECT"},{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKPYI3DC24818NE592894N/execute","rel":"execute","method":"POST"}]}')
+ 7 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-24 12:24:01 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tr...', 0)
+#1 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\app\Controllers\PayPalController.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+#9 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+#10 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-12-24 12:24:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: paypal/create-payment]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `created_at`, `updated_at`) VALUES (:order_id:, :transaction_id:, :payment_status:, :payment_method:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\PayPalController.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-24 12:24:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `created_at`, `updated_at`) VALUES (123, \'PAYID-M5VKPYI3DC24818NE592894N\', \'pending\', \'paypal\', \'2024-12-24 12:24:01\', \'2024-12-24 12:24:01\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `created_at`, `updated_at`) VALUES (123, \'PAYID-M5VKPYI3DC24818NE592894N\', \'pending\', \'paypal\', \'2024-12-24 12:24:01\', \'2024-12-24 12:24:01\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `created_at`, `updated_at`) VALUES (:order_id:, :transaction_id:, :payment_status:, :payment_method:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\PayPalController.php(48): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-24 12:24:01 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `created_at`, `updated_at`) VALUES (123, \'PAYID-M5VKPYI3DC24818NE592894N\', \'pending\', \'paypal\', \'2024-12-24 12:24:01\', \'2024-12-24 12:24:01\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `created_at`, `updated_at`) VALUES (123, \'PAYID-M5VKPYI3DC24818NE592894N\', \'pending\', \'paypal\', \'2024-12-24 12:24:01\', \'2024-12-24 12:24:01\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `created_at`, `updated_at`) VALUES (123, \'PAYID-M5VKPYI3DC24818NE592894N\', \'pending\', \'paypal\', \'2024-12-24 12:24:01\', \'2024-12-24 12:24:01\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `created_at`, `updated_at`) VALUES (:order_id:, :transaction_id:, :payment_status:, :payment_method:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\PayPalController.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 12:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-24 12:28:48 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(572): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:28:48 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(572): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:28:48 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(572): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:28:51 --> [DEPRECATED] Use of "self" in callables is deprecated in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php on line 152.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(152): preg_replace_callback('/([_\\-\\s]?([a-z0-9]+))/', 'self::replace_callback', 'related_resources')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(47): PayPal\Common\ReflectionUtil::getter('PayPal\\Api\\Transaction', 'related_resources')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(211): PayPal\Common\ReflectionUtil::getPropertyClass('PayPal\\Api\\Transaction', 'related_resources')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(234): PayPal\Common\PayPalModel->fromArray([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(272): PayPal\Common\PayPalModel->fromArray([])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(580): PayPal\Common\PayPalModel->fromJson('{"id":"PAYID-M5VKSAY7CV56985C57308932","intent":"sale","state":"created","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product","related_resources":[]}],"create_time":"2024-12-24T12:28:50Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKSAY7CV56985C57308932","rel":"self","method":"GET"},{"href":"https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-99504352GX5593715","rel":"approval_url","method":"REDIRECT"},{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKSAY7CV56985C57308932/execute","rel":"execute","method":"POST"}]}')
+ 7 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:28:51 --> [DEPRECATED] Use of "self" in callables is deprecated in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php on line 152.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(152): preg_replace_callback('/([_\\-\\s]?([a-z0-9]+))/', 'self::replace_callback', 'related_resources')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(109): PayPal\Common\ReflectionUtil::getter('PayPal\\Api\\Transaction', 'related_resources')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(51): PayPal\Common\ReflectionUtil::propertyAnnotations('PayPal\\Api\\Transaction', 'related_resources')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(211): PayPal\Common\ReflectionUtil::getPropertyClass('PayPal\\Api\\Transaction', 'related_resources')
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(234): PayPal\Common\PayPalModel->fromArray([...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(272): PayPal\Common\PayPalModel->fromArray([])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(580): PayPal\Common\PayPalModel->fromJson('{"id":"PAYID-M5VKSAY7CV56985C57308932","intent":"sale","state":"created","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product","related_resources":[]}],"create_time":"2024-12-24T12:28:50Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKSAY7CV56985C57308932","rel":"self","method":"GET"},{"href":"https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-99504352GX5593715","rel":"approval_url","method":"REDIRECT"},{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKSAY7CV56985C57308932/execute","rel":"execute","method":"POST"}]}')
+ 8 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:28:51 --> [DEPRECATED] Use of "self" in callables is deprecated in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php on line 152.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(152): preg_replace_callback('/([_\\-\\s]?([a-z0-9]+))/', 'self::replace_callback', 'related_resources')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(74): PayPal\Common\ReflectionUtil::getter('PayPal\\Api\\Transaction', 'related_resources')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(214): PayPal\Common\ReflectionUtil::isPropertyClassArray('PayPal\\Api\\Transaction', 'related_resources')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(234): PayPal\Common\PayPalModel->fromArray([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(272): PayPal\Common\PayPalModel->fromArray([])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(580): PayPal\Common\PayPalModel->fromJson('{"id":"PAYID-M5VKSAY7CV56985C57308932","intent":"sale","state":"created","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product","related_resources":[]}],"create_time":"2024-12-24T12:28:50Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKSAY7CV56985C57308932","rel":"self","method":"GET"},{"href":"https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-99504352GX5593715","rel":"approval_url","method":"REDIRECT"},{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKSAY7CV56985C57308932/execute","rel":"execute","method":"POST"}]}')
+ 7 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-24 12:28:51 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`transactions`, CONSTRAINT `transactions_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `order` (`id`)) in C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tr...', 0)
+#1 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\app\Controllers\PayPalController.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+#9 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+#10 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\komal\Codeigniter\ecommercesite\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-12-24 12:28:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`transactions`, CONSTRAINT `transactions_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `order` (`id`))
+[Method: POST, Route: paypal/create-payment]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `created_at`, `updated_at`) VALUES (:order_id:, :transaction_id:, :payment_status:, :payment_method:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\PayPalController.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-24 12:28:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`transactions`, CONSTRAINT `transactions_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `order` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `created_at`, `updated_at`) VALUES (123, \'PAYID-M5VKSAY7CV56985C57308932\', \'pending\', \'paypal\', \'2024-12-24 12:28:51\', \'2024-12-24 12:28:51\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `created_at`, `updated_at`) VALUES (123, \'PAYID-M5VKSAY7CV56985C57308932\', \'pending\', \'paypal\', \'2024-12-24 12:28:51\', \'2024-12-24 12:28:51\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `created_at`, `updated_at`) VALUES (:order_id:, :transaction_id:, :payment_status:, :payment_method:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\PayPalController.php(48): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-24 12:28:51 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`transactions`, CONSTRAINT `transactions_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `order` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `created_at`, `updated_at`) VALUES (123, \'PAYID-M5VKSAY7CV56985C57308932\', \'pending\', \'paypal\', \'2024-12-24 12:28:51\', \'2024-12-24 12:28:51\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `created_at`, `updated_at`) VALUES (123, \'PAYID-M5VKSAY7CV56985C57308932\', \'pending\', \'paypal\', \'2024-12-24 12:28:51\', \'2024-12-24 12:28:51\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `created_at`, `updated_at`) VALUES (123, \'PAYID-M5VKSAY7CV56985C57308932\', \'pending\', \'paypal\', \'2024-12-24 12:28:51\', \'2024-12-24 12:28:51\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `created_at`, `updated_at`) VALUES (:order_id:, :transaction_id:, :payment_status:, :payment_method:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\PayPalController.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 12:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-24 12:38:31 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(572): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:38:31 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(572): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:38:31 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(572): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:38:35 --> [DEPRECATED] Use of "self" in callables is deprecated in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php on line 152.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(152): preg_replace_callback('/([_\\-\\s]?([a-z0-9]+))/', 'self::replace_callback', 'related_resources')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(47): PayPal\Common\ReflectionUtil::getter('PayPal\\Api\\Transaction', 'related_resources')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(211): PayPal\Common\ReflectionUtil::getPropertyClass('PayPal\\Api\\Transaction', 'related_resources')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(234): PayPal\Common\PayPalModel->fromArray([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(272): PayPal\Common\PayPalModel->fromArray([])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(580): PayPal\Common\PayPalModel->fromJson('{"id":"PAYID-M5VKWSY9SN99210KU0964913","intent":"sale","state":"created","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product","related_resources":[]}],"create_time":"2024-12-24T12:38:34Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKWSY9SN99210KU0964913","rel":"self","method":"GET"},{"href":"https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-5YC630200H4525218","rel":"approval_url","method":"REDIRECT"},{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKWSY9SN99210KU0964913/execute","rel":"execute","method":"POST"}]}')
+ 7 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:38:35 --> [DEPRECATED] Use of "self" in callables is deprecated in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php on line 152.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(152): preg_replace_callback('/([_\\-\\s]?([a-z0-9]+))/', 'self::replace_callback', 'related_resources')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(109): PayPal\Common\ReflectionUtil::getter('PayPal\\Api\\Transaction', 'related_resources')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(51): PayPal\Common\ReflectionUtil::propertyAnnotations('PayPal\\Api\\Transaction', 'related_resources')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(211): PayPal\Common\ReflectionUtil::getPropertyClass('PayPal\\Api\\Transaction', 'related_resources')
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(234): PayPal\Common\PayPalModel->fromArray([...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(272): PayPal\Common\PayPalModel->fromArray([])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(580): PayPal\Common\PayPalModel->fromJson('{"id":"PAYID-M5VKWSY9SN99210KU0964913","intent":"sale","state":"created","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product","related_resources":[]}],"create_time":"2024-12-24T12:38:34Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKWSY9SN99210KU0964913","rel":"self","method":"GET"},{"href":"https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-5YC630200H4525218","rel":"approval_url","method":"REDIRECT"},{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKWSY9SN99210KU0964913/execute","rel":"execute","method":"POST"}]}')
+ 8 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:38:35 --> [DEPRECATED] Use of "self" in callables is deprecated in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php on line 152.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(152): preg_replace_callback('/([_\\-\\s]?([a-z0-9]+))/', 'self::replace_callback', 'related_resources')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(74): PayPal\Common\ReflectionUtil::getter('PayPal\\Api\\Transaction', 'related_resources')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(214): PayPal\Common\ReflectionUtil::isPropertyClassArray('PayPal\\Api\\Transaction', 'related_resources')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(234): PayPal\Common\PayPalModel->fromArray([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(272): PayPal\Common\PayPalModel->fromArray([])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(580): PayPal\Common\PayPalModel->fromJson('{"id":"PAYID-M5VKWSY9SN99210KU0964913","intent":"sale","state":"created","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product","related_resources":[]}],"create_time":"2024-12-24T12:38:34Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKWSY9SN99210KU0964913","rel":"self","method":"GET"},{"href":"https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-5YC630200H4525218","rel":"approval_url","method":"REDIRECT"},{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKWSY9SN99210KU0964913/execute","rel":"execute","method":"POST"}]}')
+ 7 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 12:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-24 12:39:16 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(572): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:39:16 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(572): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:39:16 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(572): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:39:18 --> [DEPRECATED] Use of "self" in callables is deprecated in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php on line 152.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(152): preg_replace_callback('/([_\\-\\s]?([a-z0-9]+))/', 'self::replace_callback', 'related_resources')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(47): PayPal\Common\ReflectionUtil::getter('PayPal\\Api\\Transaction', 'related_resources')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(211): PayPal\Common\ReflectionUtil::getPropertyClass('PayPal\\Api\\Transaction', 'related_resources')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(234): PayPal\Common\PayPalModel->fromArray([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(272): PayPal\Common\PayPalModel->fromArray([])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(580): PayPal\Common\PayPalModel->fromJson('{"id":"PAYID-M5VKW5Q31B206126A0790600","intent":"sale","state":"created","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product","related_resources":[]}],"create_time":"2024-12-24T12:39:18Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKW5Q31B206126A0790600","rel":"self","method":"GET"},{"href":"https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-0JA57263KN478210D","rel":"approval_url","method":"REDIRECT"},{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKW5Q31B206126A0790600/execute","rel":"execute","method":"POST"}]}')
+ 7 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:39:18 --> [DEPRECATED] Use of "self" in callables is deprecated in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php on line 152.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(152): preg_replace_callback('/([_\\-\\s]?([a-z0-9]+))/', 'self::replace_callback', 'related_resources')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(109): PayPal\Common\ReflectionUtil::getter('PayPal\\Api\\Transaction', 'related_resources')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(51): PayPal\Common\ReflectionUtil::propertyAnnotations('PayPal\\Api\\Transaction', 'related_resources')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(211): PayPal\Common\ReflectionUtil::getPropertyClass('PayPal\\Api\\Transaction', 'related_resources')
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(234): PayPal\Common\PayPalModel->fromArray([...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(272): PayPal\Common\PayPalModel->fromArray([])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(580): PayPal\Common\PayPalModel->fromJson('{"id":"PAYID-M5VKW5Q31B206126A0790600","intent":"sale","state":"created","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product","related_resources":[]}],"create_time":"2024-12-24T12:39:18Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKW5Q31B206126A0790600","rel":"self","method":"GET"},{"href":"https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-0JA57263KN478210D","rel":"approval_url","method":"REDIRECT"},{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKW5Q31B206126A0790600/execute","rel":"execute","method":"POST"}]}')
+ 8 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:39:18 --> [DEPRECATED] Use of "self" in callables is deprecated in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php on line 152.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(152): preg_replace_callback('/([_\\-\\s]?([a-z0-9]+))/', 'self::replace_callback', 'related_resources')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(74): PayPal\Common\ReflectionUtil::getter('PayPal\\Api\\Transaction', 'related_resources')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(214): PayPal\Common\ReflectionUtil::isPropertyClassArray('PayPal\\Api\\Transaction', 'related_resources')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(234): PayPal\Common\PayPalModel->fromArray([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(272): PayPal\Common\PayPalModel->fromArray([])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(580): PayPal\Common\PayPalModel->fromJson('{"id":"PAYID-M5VKW5Q31B206126A0790600","intent":"sale","state":"created","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product","related_resources":[]}],"create_time":"2024-12-24T12:39:18Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKW5Q31B206126A0790600","rel":"self","method":"GET"},{"href":"https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-0JA57263KN478210D","rel":"approval_url","method":"REDIRECT"},{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VKW5Q31B206126A0790600/execute","rel":"execute","method":"POST"}]}')
+ 7 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 12:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-24 12:58:28 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(572): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:58:28 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(572): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:58:28 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\komal\\Codeigniter\\ecommercesite\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(572): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product"}],"redirect_urls":{"return_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=true","cancel_url":"http://localhost/komal/Codeigniter/ecommercesite/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:58:31 --> [DEPRECATED] Use of "self" in callables is deprecated in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php on line 152.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(152): preg_replace_callback('/([_\\-\\s]?([a-z0-9]+))/', 'self::replace_callback', 'related_resources')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(47): PayPal\Common\ReflectionUtil::getter('PayPal\\Api\\Transaction', 'related_resources')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(211): PayPal\Common\ReflectionUtil::getPropertyClass('PayPal\\Api\\Transaction', 'related_resources')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(234): PayPal\Common\PayPalModel->fromArray([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(272): PayPal\Common\PayPalModel->fromArray([])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(580): PayPal\Common\PayPalModel->fromJson('{"id":"PAYID-M5VK75Y0FY56662MC750873J","intent":"sale","state":"created","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product","related_resources":[]}],"create_time":"2024-12-24T12:58:31Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VK75Y0FY56662MC750873J","rel":"self","method":"GET"},{"href":"https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-90M10742W54043946","rel":"approval_url","method":"REDIRECT"},{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VK75Y0FY56662MC750873J/execute","rel":"execute","method":"POST"}]}')
+ 7 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:58:31 --> [DEPRECATED] Use of "self" in callables is deprecated in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php on line 152.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(152): preg_replace_callback('/([_\\-\\s]?([a-z0-9]+))/', 'self::replace_callback', 'related_resources')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(109): PayPal\Common\ReflectionUtil::getter('PayPal\\Api\\Transaction', 'related_resources')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(51): PayPal\Common\ReflectionUtil::propertyAnnotations('PayPal\\Api\\Transaction', 'related_resources')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(211): PayPal\Common\ReflectionUtil::getPropertyClass('PayPal\\Api\\Transaction', 'related_resources')
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(234): PayPal\Common\PayPalModel->fromArray([...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(272): PayPal\Common\PayPalModel->fromArray([])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(580): PayPal\Common\PayPalModel->fromJson('{"id":"PAYID-M5VK75Y0FY56662MC750873J","intent":"sale","state":"created","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product","related_resources":[]}],"create_time":"2024-12-24T12:58:31Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VK75Y0FY56662MC750873J","rel":"self","method":"GET"},{"href":"https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-90M10742W54043946","rel":"approval_url","method":"REDIRECT"},{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VK75Y0FY56662MC750873J/execute","rel":"execute","method":"POST"}]}')
+ 8 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-24 12:58:31 --> [DEPRECATED] Use of "self" in callables is deprecated in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php on line 152.
+ 1 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(152): preg_replace_callback('/([_\\-\\s]?([a-z0-9]+))/', 'self::replace_callback', 'related_resources')
+ 2 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\ReflectionUtil.php(74): PayPal\Common\ReflectionUtil::getter('PayPal\\Api\\Transaction', 'related_resources')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(214): PayPal\Common\ReflectionUtil::isPropertyClassArray('PayPal\\Api\\Transaction', 'related_resources')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(234): PayPal\Common\PayPalModel->fromArray([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalModel.php(272): PayPal\Common\PayPalModel->fromArray([])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(580): PayPal\Common\PayPalModel->fromJson('{"id":"PAYID-M5VK75Y0FY56662MC750873J","intent":"sale","state":"created","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"50.00","currency":"USD"},"description":"Payment for Product","related_resources":[]}],"create_time":"2024-12-24T12:58:31Z","links":[{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VK75Y0FY56662MC750873J","rel":"self","method":"GET"},{"href":"https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-90M10742W54043946","rel":"approval_url","method":"REDIRECT"},{"href":"https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M5VK75Y0FY56662MC750873J/execute","rel":"execute","method":"POST"}]}')
+ 7 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
