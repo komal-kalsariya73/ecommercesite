@@ -84,15 +84,25 @@ class PayPalController extends BaseController
     
                 // log_message('debug', 'Payment executed: ' . print_r($result, true));
     
-                $transactionModel = new TransactionModel();
-$updateResult = $transactionModel->updateStatus($paymentId, [
-    'payment_status' => 'completed',
-    'transaction_id' => $payment->getId(),
-]);
+               $transactionDetails = $result->getTransactions()[0];
+            $relatedResources = $transactionDetails->getRelatedResources();
 
-if (!$updateResult) {
-    log_message('error', 'Failed to update payment status for paymentId: ' . $paymentId);
-}
+        
+            if (!empty($relatedResources)) {
+                $sale = $relatedResources[0]->getSale();
+                $transactionId = $sale->getId();
+
+                
+                $transactionModel = new TransactionModel();
+                $updateResult = $transactionModel->updateStatus($paymentId, [
+                    'payment_status' => 'completed',
+                    'transaction_id' => $transactionId,
+                ]);
+
+                if (!$updateResult) {
+                    log_message('error', 'Failed to update payment status for paymentId: ' . $paymentId);
+                }
+            }
     
                 return view('paypal/success', ['payment' => $result]);
             } catch (\PayPal\Exception\PayPalConnectionException $ex) {

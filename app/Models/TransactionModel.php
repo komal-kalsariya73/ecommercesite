@@ -18,8 +18,24 @@ class TransactionModel extends Model
     // Update payment status and transaction ID
     public function updateStatus($paymentId, $data)
     {
-        return $this->where('transaction_id', $paymentId)
+        return $this->where('transaction_id', $paymentId) 
                     ->set($data)
                     ->update();
     }
+
+    public function updateStripe($transactionId, $data)
+    {
+        $result = $this->where('transaction_id', $transactionId)
+                       ->set($data)
+                       ->update();
+
+        if (!$result) {
+            log_message('error', 'Failed to update transaction with ID: ' . $transactionId);
+        } else {
+            log_message('info', 'Transaction successfully updated with ID: ' . $transactionId);
+        }
+
+        return $result;
+    }
+    
 }

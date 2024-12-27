@@ -31,3 +31,12 @@ $routes->get('/logout', 'LoginController::logout');
 
 $routes->post('paypal/create-payment', 'PayPalController::createPayment');
 $routes->get('paypal/execute-payment', 'PayPalController::executePayment');
+
+$routes->post('stripe/createSession', 'StripeController::createSession');
+$routes->get('stripe/thankyou', 'StripeController::thankyou'); // GET route for successful payment
+$routes->get('stripe/cancle', 'StripeController::cancle'); // GET route for canceled payment
+
+//$routes->post('stripe/createSession', 'StripeController::createSession');
+
+// $routes->get('product/than-kyou', 'StripeController::thankyou');
+// $routes->get('execute', 'StripeController::execute');

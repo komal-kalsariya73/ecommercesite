@@ -1,7 +1,6 @@
 
 
 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,10 +28,10 @@
                     <div class="text-center">
                         <h1>Thank You !</h1>
                         <p>We've send the link to your inbox. Lorem ipsum dolor sit,lorem lorem </p>
-                        <h2>Payment Successful!</h2>
-<p>Payment has been successfully processed.</p>
-<p>Transaction ID: <?= $payment->getId() ?></p>
-<p>Status: <?= $payment->getState() ?></p>
+                        <h4>Payment Successful</h4>
+    <p>Thank you for your payment.</p>
+    <p>Order ID: <?= esc($order_id) ?></p>
+    <p>Session ID: <?= esc($session_id) ?></p>
                        <a href="<?= base_url('/product/main')?>"><button class="btn btn-outline-success">Back Home</button></a> 
                     </div>
                 </div>
